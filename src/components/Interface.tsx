@@ -8,3 +8,9 @@ export interface Status {
   isError: boolean
   message: string
 }
+
+export interface User {
+  id: number
+  name: string
+  email: string
+}
